@@ -4,8 +4,9 @@ Name:		katapult
 Version:	0.3.1.3
 Release:	1
 License:	GPL v2
-Group:		Applications
+Group:		X11/Applications
 Source0:	http://dl.sourceforge.net/katapult/%{name}_%{version}.orig.tar.gz
+# Source0-md5:	09ef2951e6e861b32fc63121e281f1da
 URL:		http://wiki.thekatapult.org.uk/Home
 BuildRequires:	automake
 BuildRequires:	kdelibs-devel
