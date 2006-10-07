@@ -8,7 +8,6 @@ Group:		X11/Applications
 Source0:	http://dl.sourceforge.net/katapult/%{name}_%{version}.orig.tar.gz
 # Source0-md5:	09ef2951e6e861b32fc63121e281f1da
 URL:		http://wiki.thekatapult.org.uk/Home
-BuildRequires:	automake
 BuildRequires:	kdelibs-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -20,11 +19,11 @@ completely customizable. Katapult was inspired by Quicksilver for OS
 X, and it is written in C++.
 
 %description -l pl
-Katapult jest aplikacj± dla KDE która umo¿liwia szybszy dostêp do
-aplikacji, zak³adek, i wielu innych! Posiada modularn± budowê i mo¿e
+Katapult jest aplikacj± dla KDE, która umo¿liwia szybszy dostêp do
+aplikacji, zak³adek, i wielu innych. Posiada modularn± budowê i mo¿e
 uruchamiaæ wszystko, do czego posiada odpowiedni± wtyczkê. Dziêki temu
-jest wysoce dostosowalny do potrzeb u¿ytkownika. Aplikacja jest
-wzorowana na Quicksilver dla OS X. Jest napisana w C++.
+mo¿e byæ w du¿ym stopniu dostosowany do potrzeb u¿ytkownika. Aplikacja
+jest wzorowana na Quicksilver dla OS X. Jest napisana w C++.
 
 %prep
 %setup -q
