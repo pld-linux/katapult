@@ -7,7 +7,7 @@ License:	GPL v2
 Group:		X11/Applications
 Source0:	http://dl.sourceforge.net/katapult/%{name}_%{version}.orig.tar.gz
 # Source0-md5:	09ef2951e6e861b32fc63121e281f1da
-URL:		http://wiki.thekatapult.org.uk/Home
+URL:		http://katapult.kde.org/wiki/
 BuildRequires:	kdelibs-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
