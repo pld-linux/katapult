@@ -1,5 +1,5 @@
 Summary:	A tool for KDE to access your applications/documents/bookmarks quickly
-Summary(pl.UTF-8):   Narzędzie dla KDE pozwalające na szybki dostęp do aplikacji/dokumentów/zakładek
+Summary(pl.UTF-8):	Narzędzie dla KDE pozwalające na szybki dostęp do aplikacji/dokumentów/zakładek
 Name:		katapult
 Version:	0.3.1.3
 Release:	1
