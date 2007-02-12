@@ -1,5 +1,5 @@
 Summary:	A tool for KDE to access your applications/documents/bookmarks quickly
-Summary(pl):	Narzêdzie dla KDE pozwalaj±ce na szybki dostêp do aplikacji/dokumentów/zak³adek
+Summary(pl.UTF-8):   NarzÄ™dzie dla KDE pozwalajÄ…ce na szybki dostÄ™p do aplikacji/dokumentÃ³w/zakÅ‚adek
 Name:		katapult
 Version:	0.3.1.3
 Release:	1
@@ -18,11 +18,11 @@ anything it has a plugin for. Its plugin-driven appearance is
 completely customizable. Katapult was inspired by Quicksilver for OS
 X, and it is written in C++.
 
-%description -l pl
-Katapult jest aplikacj± dla KDE, która umo¿liwia szybszy dostêp do
-aplikacji, zak³adek, i wielu innych. Posiada modularn± budowê i mo¿e
-uruchamiaæ wszystko, do czego posiada odpowiedni± wtyczkê. Dziêki temu
-mo¿e byæ w du¿ym stopniu dostosowany do potrzeb u¿ytkownika. Aplikacja
+%description -l pl.UTF-8
+Katapult jest aplikacjÄ… dla KDE, ktÃ³ra umoÅ¼liwia szybszy dostÄ™p do
+aplikacji, zakÅ‚adek, i wielu innych. Posiada modularnÄ… budowÄ™ i moÅ¼e
+uruchamiaÄ‡ wszystko, do czego posiada odpowiedniÄ… wtyczkÄ™. DziÄ™ki temu
+moÅ¼e byÄ‡ w duÅ¼ym stopniu dostosowany do potrzeb uÅ¼ytkownika. Aplikacja
 jest wzorowana na Quicksilver dla OS X. Jest napisana w C++.
 
 %prep
