@@ -1,13 +1,13 @@
 Summary:	A tool for KDE to access your applications/documents/bookmarks quickly
 Summary(pl.UTF-8):	Narzędzie dla KDE pozwalające na szybki dostęp do aplikacji/dokumentów/zakładek
 Name:		katapult
-Version:	0.3.1.3
+Version:	0.3.2.1
 Release:	1
 License:	GPL v2
 Group:		X11/Applications
-Source0:	http://dl.sourceforge.net/katapult/%{name}_%{version}.orig.tar.gz
-# Source0-md5:	09ef2951e6e861b32fc63121e281f1da
-URL:		http://katapult.kde.org/wiki/
+Source0:	http://dl.sourceforge.net/katapult/%{name}-%{version}.tar.gz
+# Source0-md5:	0f9454607a4b030dd00e5b93ebaef5ec
+URL:		http://katapult.kde.org/
 BuildRequires:	kdelibs-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -41,7 +41,7 @@ rm -rf $RPM_BUILD_ROOT
 	DESTDIR=$RPM_BUILD_ROOT
 
 # unnecessary
-rm -rf $RPM_BUILD_ROOT{%{_datadir}/doc,%{_libdir}/*.la,%{_iconsdir}/*/scalable}
+rm -rf $RPM_BUILD_ROOT{%{_datadir}/doc,%{_libdir}/*.la,%{_libdir}/kde3/*.la,%{_iconsdir}/*/scalable}
 
 %find_lang %{name} --with-kde
 
@@ -56,7 +56,6 @@ rm -rf $RPM_BUILD_ROOT
 %doc AUTHORS ChangeLog README TODO
 %attr(755,root,root) %{_bindir}/*
 %attr(755,root,root) %{_libdir}/*.so*
-%{_libdir}/kde3/*.la
 %attr(755,root,root) %{_libdir}/kde3/*.so
 %{_desktopdir}/kde/*.desktop
 %{_iconsdir}/*/*x*/*/*.png
